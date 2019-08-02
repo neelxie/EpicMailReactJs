@@ -1,0 +1,21 @@
+
+header {
+  height: 200px;
+  padding: 20px;
+  width: 50%;
+  font-size: 30px;
+  margin: auto;
+
+  .nav-section {
+    margin: 0 50px;
+  }
+
+}
+.navbar-light .navbar-text {
+  color: white;
+  
+  &:hover,
+  &:active {
+    color: peru;
+  }
+}

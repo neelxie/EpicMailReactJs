@@ -2,12 +2,12 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
-import App from './App';
+import HeaderSection from '../../components/HeaderSection';
 
 // test
-describe('App Component', () => {
+describe('HeaderSection Component', () => {
   it('should match the snapshot', () => {
-    const component = shallow(<App />);
+    const component = shallow(<HeaderSection />);
 
     expect(toJson(component)).toMatchSnapshot();
   });
