@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import loginActions from "../../../redux/actions/loginActions";
 import '../../CSS/Login.scss';
+import { Link } from 'react-router-dom';
 
 class Login extends Component {
   constructor(props) {
@@ -64,7 +65,10 @@ class Login extends Component {
           </button>
 
           <div className="login-signup-link">
-            Dont have an account <a href> Sign Up</a>
+            Dont have an account  
+            <Link to="/signup">
+              &nbsp;&nbsp; Sign Up
+            </Link>
           </div>
         </form>
         

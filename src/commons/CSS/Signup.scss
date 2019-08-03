@@ -1,28 +1,30 @@
-.loginform {
+.signupform {
   background-color: wheat;
   margin: auto;
   width: 70%;
-  height: 70vh;
-  margin-top: 10vh;
+  height: 90vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
   border-radius: 5px;
   padding: 20px;
   text-align: center;
   border: 15px 23px yellow solid;
+  box-shadow: 100px white;
   display: block;
   overflow: auto;
 
-  .login-wording {
+  .signup-wording {
     font-family: cursive;
-    font-size: 3.8rem;
+    font-size: 4rem;
     margin-top: 3vh;
-    margin-bottom: 55px;
+    margin-bottom: 45px;
   }
 
   input,
   span {
     display: block;
     margin: auto;
-    margin-bottom: 45px;
+    margin-bottom: 35px;
     width: 50%;
     font-size: 1.5rem;
     border-radius: 13px;
@@ -46,16 +48,15 @@
     }
   }
 
-  .login-signup-link {
+  .signup-login-link {
     font-size: 1.3rem;
     padding-top: 25px;
 
-    Link, a {
+    Link {
       color: white;
       font-size: 1.35rem;
       padding-left: 19px;
       text-decoration: none;
-      background-color: none;
 
       &:hover {
         color: black;

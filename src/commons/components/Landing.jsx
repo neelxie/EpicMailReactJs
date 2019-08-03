@@ -19,6 +19,8 @@ export default function Landing() {
         and giving back to the society, we wish to empower others by
         having a web app that helps people exchange 
         messages/information over the internet.</p>
+
+        <p>So join the revolution signup or login now.</p>
         
       </div>
     </div>
