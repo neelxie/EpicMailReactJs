@@ -6,6 +6,7 @@ import { ToastContainer } from 'react-toastify';
 import Landing from '../src/commons/components/Landing';
 import Login from './commons/components/Login';
 import SignUp from './commons/components/Signup';
+import Profile from './commons/components/Profile';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <Route path="/" exact component={Landing} />
       <Route path="/signup" exact component={SignUp} />
       <Route path="/login" exact component={Login} />
+      <Route path="/Profile" exact component={Profile} />
     </Router>
   );
 }

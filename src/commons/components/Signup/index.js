@@ -43,21 +43,21 @@ class SignUp extends Component {
           <input
             className="signup-firstname"
             id="signup-firstname"
-            name="firstname"
+            name="firstName"
             type="text"
             value={firstName}
             onChange={this.onChangeHandler}
-            placeholder="Derrick"
+            placeholder="First name"
             required
           />
           <input
             className="signup-lastname"
             id="signup-lastname"
-            name="lastname"
+            name="lastName"
             type="text"
             value={lastName}
             onChange={this.onChangeHandler}
-            placeholder="Greatest"
+            placeholder="Last name"
             required
           />
           <input
@@ -67,7 +67,7 @@ class SignUp extends Component {
             type="email"
             value={email}
             onChange={this.onChangeHandler}
-            placeholder="derek@gmail.com"
+            placeholder="Email"
             required
           />
           <input
@@ -77,7 +77,7 @@ class SignUp extends Component {
             type="password"
             value={password}
             onChange={this.onChangeHandler}
-            placeholder="password"
+            placeholder="Password"
             required
           />
           {isProcessing && <span>is processing</span>}

@@ -4,6 +4,7 @@ import {
   IS_LOGIN_SUCCESS,
   IS_LOGIN_FAILED
 } from '../actionTypes';
+import { Link } from 'react-router-dom';
 
 const isLoggingIn = () => ({
   type: IS_PROCESSING,
@@ -25,7 +26,7 @@ const loginActions = (userLoginData) => dispatch => {
     .then((resp) => {
       dispatch(isLoginSuccess(resp));
       localStorage.setItem('token', resp.data.token);
-      window.location = '/profile';
+      window.location = 'https://epicmailreact.herokuapp.com/profile';
     }).catch((error) => {
       dispatch(isLoginFailed(error));
     });

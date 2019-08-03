@@ -44,7 +44,7 @@ class Login extends Component {
             type="email"
             value={email}
             onChange={this.onChangeHandler}
-            placeholder="derek@gmail.com"
+            placeholder="Enter valid email"
             required
           />
           <input
