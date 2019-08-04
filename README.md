@@ -1,5 +1,5 @@
 # EpicMailReactJs
-[![Build Status](https://travis-ci.org/neelxie/EpicMailReactJs.svg?branch=ft-profile-page)](https://travis-ci.org/neelxie/EpicMailReactJs)
+[![Build Status](https://travis-ci.org/neelxie/EpicMailReactJs.svg?branch=develop)](https://travis-ci.org/neelxie/EpicMailReactJs)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a439c5890cce4f94b3b50e53036c014e)](https://www.codacy.com/app/neelxie/epicmailreactjs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=neelxie/sendApi&amp;utm_campaign=Badge_Grade)
 [![Maintainability](https://api.codeclimate.com/v1/badges/847910124c9569cf7915/maintainability)](https://codeclimate.com/github/neelxie/EpicMailReactJs/maintainability)
 
@@ -48,3 +48,4 @@ Click [here](https://epicmailreact.herokuapp.com/)
 ## Credits
  * I thank GOD, to whom everything plays out.
  * I would like to thank everyone that inspires me to be better.
+
