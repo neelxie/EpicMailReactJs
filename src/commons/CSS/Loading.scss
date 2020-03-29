@@ -1,0 +1,15 @@
+
+
+.loading {
+  left: 47%;
+  position: absolute;
+  top: 55%;
+
+  .spinner-border {
+    width: 5rem;
+    height: 5rem;
+    border-color:red;
+    vertical-align: text-bottom;
+    border-right-color: transparent;
+}
+}
